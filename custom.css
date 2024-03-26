@@ -1,0 +1,46 @@
+.loading {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #404040;
+  color: white;
+}
+ 
+.loading.hide {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms;
+}
+
+.loading-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 20px;
+}
+
+.border-red {
+  border: red 2px solid;
+}
+.border-blue {
+  border: blue 2px solid;
+}
+.border-green {
+  border: green 2px solid;
+}
+.border-black {
+  border: black 2px solid;
+}
+.border-sky {
+  border: skyblue 2px solid;
+}
+
+img {
+  width:200px;
+  height:200px;
+}
